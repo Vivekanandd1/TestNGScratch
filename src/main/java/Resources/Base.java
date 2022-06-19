@@ -17,7 +17,7 @@ public class Base {
 	
 	public WebDriver DriverInitializer() throws IOException {
 		Properties prop = new Properties();
-		FileInputStream fis = new FileInputStream("C:\\Users\\Sony\\eclipse-workspace\\NewProj\\src\\main\\java\\TestNGFrameWork\\NewProj\\Data,properties");
+		FileInputStream fis = new FileInputStream("C:\\Users\\Sony\\eclipse-workspace\\NewProj\\src\\main\\java\\Resources\\Data,properties");
 		prop.load(fis);
 		
 		String Browsername = prop.getProperty("browser");
