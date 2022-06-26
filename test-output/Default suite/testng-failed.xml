@@ -5,6 +5,8 @@
     <classes>
       <class name="TestNGFrameWork.NewProj.HomePage">
         <methods>
+          <include name="Teardown"/>
+          <include name="Startdown"/>
           <include name="BasePageNaviagtion"/>
         </methods>
       </class> <!-- TestNGFrameWork.NewProj.HomePage -->

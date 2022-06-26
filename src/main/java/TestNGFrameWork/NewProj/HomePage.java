@@ -1,9 +1,11 @@
 package TestNGFrameWork.NewProj;
 
 import java.io.IOException;
+import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
@@ -16,15 +18,21 @@ public class HomePage extends Base {
 	
 //	Base base = new Base();
 	WebDriver driver;
-
+	public Properties prop;
+	public LandingPage landingpage;
+	@BeforeTest
+	public void Startdown() throws IOException {
+		 driver=DriverInitializer();
+		    landingpage=new LandingPage(driver);
+//			driver.get(prop.getProperty("url"));
+		    driver.get("http://www.qaclickacademy.com/");
+		
+	}	
 	
 //	@Test(dataProvider="getdata")TestNGFrameWork.NewProj.HomePage
 	@Test
 //	public void BasePageNaviagtion(String Username,String Password,String Text) throws IOException  {
 	public void BasePageNaviagtion() throws IOException  {
-	    driver=DriverInitializer();
-	    LandingPage landingpage=new LandingPage(driver);
-		driver.get("http://www.qaclickacademy.com/");
 //		landingpage.Signin().click();
 //		landingpage.Mailid().sendKeys(Username);
 //		landingpage.Passwrd().sendKeys(Password);
@@ -47,4 +55,9 @@ public class HomePage extends Base {
 //		return data;
 //	}
 	
-}
+	@AfterTest
+	public void Teardown() throws InterruptedException{
+		Thread.sleep(1000);
+	driver.quit();	
+	}
+	}

@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="TestNGFrameWork.NewProj.HomePage"/>
+      <class name="TestNGFrameWork.NewProj.ValidateNavigationPage"/>
       <class name="TestNGFrameWork.NewProj.AppTest"/>
     </classes>
   </test> <!-- Test -->

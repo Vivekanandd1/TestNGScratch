@@ -12,6 +12,7 @@ public class LandingPage {
 	By PasswordBox = By.xpath("//input[@name=' password']");
 	By signInBtn = By.xpath("//input[@type='submit']");
 	By TextPrsnt = By.xpath("//h2[normalize-space()='Featured Courses']");
+	By NavBar = By.cssSelector("ul.nav.navbar-nav.navbar-right");
 	
 	public LandingPage(WebDriver driver) {
 		this.driver=driver;
@@ -23,6 +24,10 @@ public class LandingPage {
 	
 	public WebElement Title() {
 		return driver.findElement(TextPrsnt);
+	}
+	
+	public WebElement NavBar() {
+		return driver.findElement(NavBar);
 	}
 	
 	
