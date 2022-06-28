@@ -1,5 +1,6 @@
 package TestNGFrameWork.NewProj;
 
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
@@ -18,14 +19,14 @@ public class HomePage extends Base {
 	
 //	Base base = new Base();
 	WebDriver driver;
-	public Properties prop;
+	
 	public LandingPage landingpage;
 	@BeforeTest
 	public void Startdown() throws IOException {
 		 driver=DriverInitializer();
 		    landingpage=new LandingPage(driver);
-//			driver.get(prop.getProperty("url"));
-		    driver.get("http://www.qaclickacademy.com/");
+			driver.get(prop.getProperty("url"));
+//		    driver.get("http://www.qaclickacademy.com/");
 		
 	}	
 	
@@ -57,7 +58,7 @@ public class HomePage extends Base {
 	
 	@AfterTest
 	public void Teardown() throws InterruptedException{
-		Thread.sleep(1000);
+		Thread.sleep(500);
 	driver.quit();	
 	}
 	}

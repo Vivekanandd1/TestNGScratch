@@ -17,7 +17,7 @@ public class Base {
 	public Properties prop;
 	
 	public WebDriver DriverInitializer() throws IOException {
-		Properties prop = new Properties();
+		 prop = new Properties();
 		FileInputStream fis = new FileInputStream("C:\\Users\\Sony\\eclipse-workspace\\TestNgProject\\src\\main\\java\\Resources\\Data,properties");
 		prop.load(fis);
 		

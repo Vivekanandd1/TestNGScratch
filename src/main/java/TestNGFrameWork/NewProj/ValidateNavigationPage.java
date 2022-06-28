@@ -22,8 +22,8 @@ public class ValidateNavigationPage extends Base {
 	public void Startdown() throws IOException {
 		 driver=DriverInitializer();
 		    landingpage=new LandingPage(driver);
-//			driver.get(prop.getProperty("url"));
-		    driver.get("http://www.qaclickacademy.com/");
+			driver.get(prop.getProperty("url"));
+//		    driver.get("http://www.qaclickacademy.com/");
 		
 	}	
 	
@@ -36,7 +36,7 @@ public class ValidateNavigationPage extends Base {
 	
 	@Test
 	public void Teardown() throws InterruptedException{
-		Thread.sleep(1000);
+		Thread.sleep(500);
 	driver.quit();	
 	}
 
