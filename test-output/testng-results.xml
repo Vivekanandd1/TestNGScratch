@@ -2,38 +2,40 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-28T12:41:45 IST" name="Suite" finished-at="2022-06-28T12:42:55 IST" duration-ms="70126">
+  <suite started-at="2022-08-21T19:48:35 IST" name="Suite" finished-at="2022-08-21T19:48:57 IST" duration-ms="21820">
     <groups>
     </groups>
-    <test started-at="2022-06-28T12:41:45 IST" name="Test" finished-at="2022-06-28T12:42:55 IST" duration-ms="70126">
+    <test started-at="2022-08-21T19:48:35 IST" name="HomePage" finished-at="2022-08-21T19:48:57 IST" duration-ms="21818">
       <class name="TestNGFrameWork.NewProj.HomePage">
-        <test-method is-config="true" signature="Startdown()[pri:0, instance:TestNGFrameWork.NewProj.HomePage@2053d869]" started-at="2022-06-28T12:41:45 IST" name="Startdown" finished-at="2022-06-28T12:42:16 IST" duration-ms="31009" status="PASS">
+        <test-method is-config="true" signature="Startdown()[pri:0, instance:TestNGFrameWork.NewProj.HomePage@3f6db3fb]" started-at="2022-08-21T19:48:35 IST" name="Startdown" finished-at="2022-08-21T19:48:55 IST" duration-ms="19837" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Startdown -->
-        <test-method signature="BasePageNaviagtion()[pri:0, instance:TestNGFrameWork.NewProj.HomePage@2053d869]" started-at="2022-06-28T12:42:52 IST" name="BasePageNaviagtion" finished-at="2022-06-28T12:42:52 IST" duration-ms="297" status="PASS">
+        <test-method signature="BasePageNaviagtion()[pri:0, instance:TestNGFrameWork.NewProj.HomePage@3f6db3fb]" started-at="2022-08-21T19:48:55 IST" name="BasePageNaviagtion" finished-at="2022-08-21T19:48:55 IST" duration-ms="133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BasePageNaviagtion -->
-        <test-method is-config="true" signature="Teardown()[pri:0, instance:TestNGFrameWork.NewProj.HomePage@2053d869]" started-at="2022-06-28T12:42:54 IST" name="Teardown" finished-at="2022-06-28T12:42:55 IST" duration-ms="1707" status="PASS">
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:TestNGFrameWork.NewProj.HomePage@3f6db3fb]" started-at="2022-08-21T19:48:55 IST" name="Teardown" finished-at="2022-08-21T19:48:57 IST" duration-ms="1827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
       </class> <!-- TestNGFrameWork.NewProj.HomePage -->
+    </test> <!-- HomePage -->
+    <test started-at="2022-08-21T19:48:35 IST" name="Validation" finished-at="2022-08-21T19:48:57 IST" duration-ms="21820">
       <class name="TestNGFrameWork.NewProj.ValidateNavigationPage">
-        <test-method is-config="true" signature="Startdown()[pri:0, instance:TestNGFrameWork.NewProj.ValidateNavigationPage@49c7b90e]" started-at="2022-06-28T12:42:16 IST" name="Startdown" finished-at="2022-06-28T12:42:52 IST" duration-ms="35568" status="PASS">
+        <test-method is-config="true" signature="Startdown()[pri:0, instance:TestNGFrameWork.NewProj.ValidateNavigationPage@793138bd]" started-at="2022-08-21T19:48:35 IST" name="Startdown" finished-at="2022-08-21T19:48:55 IST" duration-ms="19471" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Startdown -->
-        <test-method signature="NavBarValidation()[pri:0, instance:TestNGFrameWork.NewProj.ValidateNavigationPage@49c7b90e]" started-at="2022-06-28T12:42:52 IST" name="NavBarValidation" finished-at="2022-06-28T12:42:52 IST" duration-ms="175" status="PASS">
+        <test-method signature="NavBarValidation()[pri:0, instance:TestNGFrameWork.NewProj.ValidateNavigationPage@793138bd]" started-at="2022-08-21T19:48:55 IST" name="NavBarValidation" finished-at="2022-08-21T19:48:55 IST" duration-ms="190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavBarValidation -->
-        <test-method signature="Teardown()[pri:0, instance:TestNGFrameWork.NewProj.ValidateNavigationPage@49c7b90e]" started-at="2022-06-28T12:42:52 IST" name="Teardown" finished-at="2022-06-28T12:42:54 IST" duration-ms="1280" status="PASS">
+        <test-method signature="Teardown()[pri:0, instance:TestNGFrameWork.NewProj.ValidateNavigationPage@793138bd]" started-at="2022-08-21T19:48:55 IST" name="Teardown" finished-at="2022-08-21T19:48:57 IST" duration-ms="2063" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Teardown -->
       </class> <!-- TestNGFrameWork.NewProj.ValidateNavigationPage -->
-    </test> <!-- Test -->
+    </test> <!-- Validation -->
   </suite> <!-- Suite -->
 </testng-results>
